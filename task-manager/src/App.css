@@ -1,5 +1,11 @@
 
+.form-input{
+  width:300px;
+}
 
+.label{
+  text-align: left;
+}
 
 #root {
   max-width: 1280px;
