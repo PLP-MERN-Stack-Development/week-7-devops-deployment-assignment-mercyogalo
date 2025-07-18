@@ -1,8 +1,7 @@
 import { useEffect, useState } from 'react';
 import { fetchTasks, addTask, deleteTask, updateTask } from '../api';
 import { useNavigate, Link } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowRightFromBracket } from '@fortawesome/free-solid-svg-icons';
+
 
 function Dashboard() {
   const [tasks, setTasks] = useState([]);
@@ -44,7 +43,7 @@ function Dashboard() {
   </div>
   <div className="flex-none">
      <button onClick={handleLogout} className="text-neutral-content btn bg-neutral">
-            <FontAwesomeIcon icon={faArrowRightFromBracket} className="mr-2" />
+           
             Log out
              </button>
      </div>
